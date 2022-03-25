@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=q">
+
+    <link rel="stylesheet" href="style.css">
+    
+    <title> QR Code Generator</title>
+</head>
+<body>
+    <section class="welcome_area clearfix" id="home">
+        <div class="container h-100 ">
+            <div class="row h-100 align-items-center">
+                <div class="welcome-heading col-md-8">
+                    <h2>QR code Generator</h2>
+                    <h3>QR</h3>
+                    <p> Convert the piece of text into qr code </p>
+                    <div class="get-start-area">
+                        <form action="" class="form-inline">
+                            <input type="text" id="data" class="form-control email" placeholder="Enter text">
+                            <input type="button" class="submit" value="Get QR CODE " onclick="generateQr()">
+                            <input type="button" class="submit clear" value="Clear QR code " onclick="clearImage()">
+                        </form>
+                    </div>
+                </div>
+                <div class="welcome-thumb col-md-4">
+                    <img src=""  id='qr' alt="" width="60%" >
+                </div>
+            </div>
+           
+
+        </div>
+        
+
+    </section>
+
+    <script type="text/javascript" src="/eel.js"></script>
+    <script type="text/javascript" src="main.js"></script>
+ 
+</body>
+</html>
